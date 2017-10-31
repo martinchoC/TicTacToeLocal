@@ -79,7 +79,8 @@
             android:id="@+id/button8"
             android:layout_width="40pt"
             android:layout_height="40pt"
-            android:layout_marginRight="3pt" />
+            android:layout_marginRight="3pt"
+            android:onClick="buttonClick" />
 
         <Button
             android:id="@+id/button9"
