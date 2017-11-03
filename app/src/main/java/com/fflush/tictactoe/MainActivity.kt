@@ -106,6 +106,23 @@ class MainActivity : AppCompatActivity() {
             winner = 2
         }
 
+        //diag A
+        if(player1.contains(1) && player1.contains(5) && player1.contains(9)) {
+            winner = 1
+        }
+        if(player2.contains(1) && player2.contains(5) && player2.contains(9)) {
+            winner = 2
+        }
+
+        //diag B
+        if(player1.contains(3) && player1.contains(5) && player1.contains(7)) {
+            winner = 1
+        }
+        if(player2.contains(3) && player2.contains(5) && player2.contains(7)) {
+            winner = 2
+        }
+
+
         if( winner != -1){
             if(winner == 1){
                 Toast.makeText(this, "PLAYER 1 WINS", Toast.LENGTH_LONG).show()
