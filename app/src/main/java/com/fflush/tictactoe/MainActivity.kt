@@ -41,13 +41,13 @@ class MainActivity : AppCompatActivity() {
 
         if(activePlayer == 1){
             buttonSelected.text = "X"
-            buttonSelected.setBackgroundColor(Color.GREEN)
+            buttonSelected.setBackgroundResource(R.color.blue)
             player1.add(cellID)
             activePlayer = 2
         }
         else{
             buttonSelected.text = "O"
-            buttonSelected.setBackgroundColor(Color.RED)
+            buttonSelected.setBackgroundResource(R.color.darkGreen)
             player2.add(cellID)
             activePlayer = 1
         }
